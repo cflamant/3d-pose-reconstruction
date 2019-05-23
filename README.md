@@ -16,8 +16,18 @@ Required packages:
 * scipy
 * vpython
 
-To run the script, in a terminal simply navigate to the `code/` directory and execute
+To download the code, in a terminal first clone this repository with git:
+```
+$ git clone https://github.com/cflamant/3d-pose-reconstruction.git
+$ cd 3d-pose-reconstruction
+$ cd code
+
+To run the script, while in the `code/` directory, execute
 
 ```
 $ python run.py
 ```
+
+The program will open a file selection window where you can select which image you want to load, and then you can follow the instructions in the main window. 
+
+After clicking `Next` you will be presented with an image showing which joints have been selected. Closing this window will then open a vpython instance in your browser where you can examine the 3D stick figure that has been generated from the pose information.
