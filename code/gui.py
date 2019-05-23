@@ -81,9 +81,9 @@ def selectpoints():
     # Set the text informing which joint should be selected
     def updateselectiontext():
         if(ijoint >= jointcount):
-            newtext = "Click the next button"
+            newtext = "Specify joint ordering then click the next button"
         else:
-            newtext = "Click on the " + jointnames[ijoint]
+            newtext = "Click (and drag) on the " + jointnames[ijoint]
         selectiontext.config(text=newtext)
     
     updateselectiontext()
