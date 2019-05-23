@@ -10,6 +10,9 @@ Please refer to the file [3D_Pose_Reconstruction.pdf](3D_Pose_Reconstruction.pdf
 ![breakdance recons1](fig/mybreakdancerecons2.png)
 
 ## Setup and Running the Code
+Required Python version:
+* Python 3.5+
+
 Required packages:
 * Pillow
 * numpy
