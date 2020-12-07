@@ -1,4 +1,5 @@
 # 3D Human Pose Reconstruction from a 2D Monocular Image with Joint Ordering Uncertainty
+[![DOI](https://zenodo.org/badge/187908163.svg)](https://zenodo.org/badge/latestdoi/187908163)
 
 Given a picture of a human and the approximate location of joints and their relative z-ordering (closeness to the camera), this script reconstructs an approximation of their 3D pose.
 
